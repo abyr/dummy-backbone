@@ -1,0 +1,17 @@
+{
+  "name": "dummy-backbone",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "latest",
+    "jquery": "latest",
+    "underscore-amd": "latest",
+    "backbone-amd": "latest"
+  }
+}

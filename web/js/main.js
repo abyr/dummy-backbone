@@ -15,7 +15,8 @@
             underscore: {
                 exports: "_"
             }
-        }
+        },
+        urlArgs: "bust=" + (new Date().getTime())
     });
 
     require(["underscore", "backbone", "router"], function(_, Backbone, Router) {});

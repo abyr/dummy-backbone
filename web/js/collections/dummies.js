@@ -6,14 +6,14 @@
         Dummies = Backbone.Collection.extend({
             model: Dummy,
 
-            url: false,
+            url: "http://localhost:8080/dummies",
 
             initialize: function() {
                 return this.on("add", this.onModelWasAddedd, this);
             },
 
             onModelWasAddedd: function(model, collection, options) {
-                return model.save();
+                // return model.save();
             }
         });
 

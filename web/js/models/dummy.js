@@ -6,7 +6,7 @@
         Dummy = Backbone.Model.extend({
             idAttribute: "id",
 
-            urlRoot: false,
+            urlRoot: "http://localhost:8080/dummies",
 
             defaults: {
                 dummy: true

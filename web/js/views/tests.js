@@ -34,8 +34,6 @@
                 });
             }
 
-            console.log(this.collection.toJSON());
-
             htmls = [
                 "<span>length = " + (this.collection.length || 0) + "</span>",
                 "<span class='add'>add</close>",

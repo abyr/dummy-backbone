@@ -49,6 +49,7 @@
                 this.collection.add({
                     dummy: true
                 })
+                this.collection.at(this.collection.length-1).save();
             }
         },
 

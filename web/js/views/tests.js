@@ -41,7 +41,7 @@
                 "<span class='close'>close</close>"
             ]
             this.$el.empty().append(htmls.join(" / "));
-            return void 0;
+            return this;
         },
 
         add: function () {

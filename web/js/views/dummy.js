@@ -16,7 +16,7 @@
             this.model.on("change", this.render, this);
             this.collection.on("reset", this.render, this);
 
-            return void 0;
+            return this;
         },
 
         render: function() {
